@@ -1,0 +1,2402 @@
+{
+  "repo": "earthquake-api-endpoints",
+  "title": "Earthquake API endpoints",
+  "snapshot": "2026-11-15",
+  "snapshot_text": "15 Nov 2026",
+  "snapshot_time": "2026-11-15 09:06:22 IST",
+  "tested_total": 5129834,
+  "passed_total": 3726509,
+  "rows": 10873,
+  "unique_urls": 10873,
+  "services": 1324,
+  "country_codes": 144,
+  "single_country": null,
+  "agent_ready": 8696,
+  "range": {
+    "min": "2026-11-10",
+    "max": "2026-11-15",
+    "text": "10–15 Nov 2026"
+  },
+  "formats": {
+    "json": 8696,
+    "xml": 1443,
+    "csv": 383,
+    "geojson": 304,
+    "zip": 41,
+    "txt": 6
+  },
+  "categories": {
+    "Hazards": 10315,
+    "Government & Open Data": 160,
+    "Maritime": 115,
+    "Science": 100,
+    "Navigation & Geo/Maps": 83,
+    "Environment": 36,
+    "Weather & Climate": 27,
+    "Statistics & Economy": 14,
+    "Transport & Mobility": 9,
+    "Aviation": 8,
+    "Health": 3,
+    "Energy": 1,
+    "Hydrology & Oceans": 1,
+    "Other": 1
+  },
+  "tags": {
+    "earthquakes": 10873,
+    "no-key": 10873,
+    "hazards": 10339,
+    "agent-ready": 8696,
+    "json": 8696,
+    "maps": 7180,
+    "open-data": 2393,
+    "xml": 1443,
+    "csv": 383,
+    "tsunami": 306,
+    "geojson": 304,
+    "government": 253,
+    "science": 180,
+    "volcanoes": 164,
+    "weather": 118,
+    "maritime": 115,
+    "rivers": 91,
+    "oceans": 90,
+    "aviation": 74,
+    "elevation": 52,
+    "statistics": 51,
+    "health": 44,
+    "environment": 43,
+    "floods": 35,
+    "transit": 33,
+    "wildfire": 33,
+    "energy": 20,
+    "groundwater": 15,
+    "climate": 12,
+    "economy": 12,
+    "forecast": 4,
+    "finance": 2,
+    "tides": 2,
+    "ai-ml": 1,
+    "mcp-server": 1,
+    "traffic": 1,
+    "water": 1
+  },
+  "dates": {
+    "2026-11-15": 5461,
+    "2026-11-14": 5373,
+    "2026-11-13": 11,
+    "2026-11-12": 15,
+    "2026-11-11": 12,
+    "2026-11-10": 1
+  },
+  "countryNames": {
+    "US": "United States",
+    "CN": "China",
+    "SG": "Singapore",
+    "NZ": "New Zealand",
+    "DE": "Germany",
+    "GB": "United Kingdom",
+    "IT": "Italy",
+    "TR": "Turkiye",
+    "AU": "Australia",
+    "CA": "Canada",
+    "ID": "Indonesia",
+    "IE": "Ireland",
+    "GR": "Greece",
+    "EC": "Ecuador",
+    "CH": "Switzerland",
+    "ZA": "South Africa",
+    "LY": "Libya",
+    "BO": "Bolivia",
+    "UZ": "Uzbekistan",
+    "SV": "El Salvador",
+    "ML": "Mali",
+    "KW": "Kuwait",
+    "MY": "Malaysia",
+    "ES": "Spain",
+    "CO": "Colombia",
+    "JP": "Japan",
+    "BE": "Belgium",
+    "ET": "Ethiopia",
+    "CD": "DR Congo",
+    "NP": "Nepal",
+    "KH": "Cambodia",
+    "NO": "Norway",
+    "RO": "Romania",
+    "TW": "Taiwan",
+    "DK": "Denmark",
+    "PL": "Poland",
+    "FR": "France",
+    "CL": "Chile",
+    "HN": "Honduras",
+    "AF": "Afghanistan",
+    "CY": "Cyprus",
+    "MZ": "Mozambique",
+    "AI": "Anguilla",
+    "IN": "India",
+    "SA": "Saudi Arabia",
+    "HK": "Hong Kong",
+    "PT": "Portugal",
+    "IL": "Israel",
+    "GT": "Guatemala",
+    "KE": "Kenya",
+    "KZ": "Kazakhstan",
+    "MN": "Mongolia",
+    "GY": "Guyana",
+    "MD": "Moldova",
+    "ZW": "Zimbabwe",
+    "SO": "Somalia",
+    "KP": "North Korea",
+    "GL": "Greenland",
+    "LA": "Laos",
+    "SY": "Syria",
+    "SS": "South Sudan",
+    "TD": "Chad",
+    "TM": "Turkmenistan",
+    "TJ": "Tajikistan",
+    "TL": "Timor-Leste",
+    "PS": "Palestine",
+    "VU": "Vanuatu",
+    "TH": "Thailand",
+    "EU": "European Union",
+    "SK": "Slovakia",
+    "MX": "Mexico",
+    "PH": "Philippines",
+    "NL": "Netherlands",
+    "IQ": "Iraq",
+    "PG": "Papua New Guinea",
+    "SB": "Solomon Islands",
+    "MM": "Myanmar",
+    "DZ": "Algeria",
+    "IR": "Iran",
+    "MG": "Madagascar",
+    "RW": "Rwanda",
+    "BY": "Belarus",
+    "AZ": "Azerbaijan",
+    "CI": "Cote d'Ivoire",
+    "EG": "Egypt",
+    "TT": "Trinidad and Tobago",
+    "GE": "Georgia",
+    "BD": "Bangladesh",
+    "BR": "Brazil",
+    "VE": "Venezuela",
+    "SI": "Slovenia",
+    "MW": "Malawi",
+    "AQ": "Antarctica",
+    "PE": "Peru",
+    "BI": "Burundi",
+    "CZ": "Czechia",
+    "EE": "Estonia",
+    "BA": "Bosnia and Herzegovina",
+    "TN": "Tunisia",
+    "CG": "Republic of the Congo",
+    "ME": "Montenegro",
+    "YE": "Yemen",
+    "IO": "British Indian Ocean Territory",
+    "PA": "Panama",
+    "KR": "South Korea",
+    "UY": "Uruguay",
+    "AO": "Angola",
+    "JO": "Jordan",
+    "BG": "Bulgaria",
+    "RU": "Russia",
+    "GA": "Gabon",
+    "GN": "Guinea",
+    "TZ": "Tanzania",
+    "AT": "Austria",
+    "CR": "Costa Rica",
+    "RS": "Serbia",
+    "MA": "Morocco",
+    "ZM": "Zambia",
+    "FJ": "Fiji",
+    "JM": "Jamaica",
+    "PR": "Puerto Rico",
+    "BT": "Bhutan",
+    "MK": "North Macedonia",
+    "BW": "Botswana",
+    "TF": "French Southern Territories",
+    "NE": "Niger",
+    "NA": "Namibia",
+    "AM": "Armenia",
+    "OM": "Oman",
+    "NI": "Nicaragua",
+    "GH": "Ghana",
+    "UG": "Uganda",
+    "HT": "Haiti",
+    "CU": "Cuba",
+    "LS": "Lesotho",
+    "IS": "Iceland",
+    "MR": "Mauritania",
+    "ER": "Eritrea",
+    "PK": "Pakistan",
+    "DJ": "Djibouti",
+    "LB": "Lebanon",
+    "UA": "Ukraine",
+    "PY": "Paraguay",
+    "SD": "Sudan"
+  },
+  "leftOutCredential": 0,
+  "leftOutListing": 0,
+  "left_out_by_reason": {
+    "listing page, not a data call": 0,
+    "credential in the address": 0,
+    "private or local address": 0,
+    "email-like address": 0,
+    "survey form layer": 158,
+    "camera or image URL": 0,
+    "stored-login proxy": 0,
+    "class-exercise copy": 0,
+    "editable layer": 1,
+    "police stop records": 0,
+    "form answer layer": 11,
+    "needs an Indian network location": 0,
+    "leak check match": 0,
+    "coursework layer": 160,
+    "public input layer": 0,
+    "service name like a class layer or a person": 0,
+    "social network server information": 0,
+    "repeated address": 0
+  },
+  "leftOutExcluded": 0,
+  "left_out_by_rule": [],
+  "sample_rows": 1000,
+  "focus_rows": 6177,
+  "arcgis_online_rows": 6481,
+  "subcategories": {},
+  "agent_formats": [
+    "json"
+  ],
+  "largestServices": [
+    {
+      "service": "USGS Earthquake Hazards",
+      "display": "USGS Earthquake Hazards",
+      "host": "earthquake.usgs.gov",
+      "endpoints": 1144,
+      "agent_ready": 1023,
+      "in_focus": 1142,
+      "country_codes": 88,
+      "formats": [
+        "json",
+        "geojson",
+        "csv"
+      ]
+    },
+    {
+      "service": "Usgs",
+      "display": "Usgs",
+      "host": "data.usgs.gov",
+      "endpoints": 925,
+      "agent_ready": 0,
+      "in_focus": 320,
+      "country_codes": 1,
+      "formats": [
+        "xml"
+      ]
+    },
+    {
+      "service": "Amerigeo",
+      "display": "Amerigeo",
+      "host": "www.amerigeo.org",
+      "endpoints": 567,
+      "agent_ready": 183,
+      "in_focus": 6,
+      "country_codes": 0,
+      "formats": [
+        "xml",
+        "csv",
+        "json",
+        "geojson"
+      ]
+    },
+    {
+      "service": "Napsgfoundation",
+      "display": "Napsgfoundation",
+      "host": "prep-response-portal.napsgfoundation.org",
+      "endpoints": 291,
+      "agent_ready": 95,
+      "in_focus": 10,
+      "country_codes": 0,
+      "formats": [
+        "csv",
+        "json",
+        "xml",
+        "geojson",
+        "zip"
+      ]
+    },
+    {
+      "service": "ArcGIS organization W1uyphp8h2tna3qJ",
+      "display": "ArcGIS Online layers (services5.arcgis.com, org W1uyphp8h2tna3qJ)",
+      "host": "services5.arcgis.com",
+      "endpoints": 286,
+      "agent_ready": 286,
+      "in_focus": 182,
+      "country_codes": 2,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization tuxY7TQIaDhLWARO",
+      "display": "ArcGIS Online layers (services6.arcgis.com, org tuxY7TQIaDhLWARO)",
+      "host": "services6.arcgis.com",
+      "endpoints": 233,
+      "agent_ready": 233,
+      "in_focus": 227,
+      "country_codes": 3,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Doi",
+      "display": "Doi",
+      "host": "doi.org",
+      "endpoints": 209,
+      "agent_ready": 209,
+      "in_focus": 136,
+      "country_codes": 0,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS Online for Ontario Schools (ArcGIS Online)",
+      "display": "ArcGIS Online for Ontario Schools (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 194,
+      "agent_ready": 194,
+      "in_focus": 156,
+      "country_codes": 3,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Toronto District School Board (ArcGIS Online)",
+      "display": "Toronto District School Board (ArcGIS Online)",
+      "host": "services2.arcgis.com",
+      "endpoints": 147,
+      "agent_ready": 147,
+      "in_focus": 68,
+      "country_codes": 3,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization 2ZRAaoTSJbQ20ceg",
+      "display": "ArcGIS Online layers (services5.arcgis.com, org 2ZRAaoTSJbQ20ceg)",
+      "host": "services5.arcgis.com",
+      "endpoints": 138,
+      "agent_ready": 138,
+      "in_focus": 125,
+      "country_codes": 5,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization RbjlVNAtGGPx1hPV",
+      "display": "ArcGIS Online layers (services5.arcgis.com, org RbjlVNAtGGPx1hPV)",
+      "host": "services5.arcgis.com",
+      "endpoints": 109,
+      "agent_ready": 109,
+      "in_focus": 72,
+      "country_codes": 2,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization 3xOwF6p0r7IHIjfn",
+      "display": "ArcGIS Online layers (services.arcgis.com, org 3xOwF6p0r7IHIjfn)",
+      "host": "services.arcgis.com",
+      "endpoints": 104,
+      "agent_ready": 104,
+      "in_focus": 77,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization AHJOWTX3sFcnmA9U",
+      "display": "ArcGIS Online layers (services7.arcgis.com, org AHJOWTX3sFcnmA9U)",
+      "host": "services7.arcgis.com",
+      "endpoints": 104,
+      "agent_ready": 104,
+      "in_focus": 104,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Temple University (ArcGIS Online)",
+      "display": "Temple University (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 96,
+      "agent_ready": 96,
+      "in_focus": 95,
+      "country_codes": 3,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Eoapi",
+      "display": "Eoapi",
+      "host": "stac.eoapi.dev",
+      "endpoints": 93,
+      "agent_ready": 85,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json",
+        "geojson"
+      ]
+    },
+    {
+      "service": "Gymnasium Neufeld (ArcGIS Online)",
+      "display": "Gymnasium Neufeld (ArcGIS Online)",
+      "host": "services4.arcgis.com",
+      "endpoints": 91,
+      "agent_ready": 91,
+      "in_focus": 65,
+      "country_codes": 2,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Seismicportal",
+      "display": "Seismicportal",
+      "host": "www.seismicportal.eu",
+      "endpoints": 90,
+      "agent_ready": 0,
+      "in_focus": 90,
+      "country_codes": 90,
+      "formats": [
+        "geojson"
+      ]
+    },
+    {
+      "service": "ArcGIS organization vF5meFYES9JqHHlg",
+      "display": "ArcGIS Online layers (services3.arcgis.com, org vF5meFYES9JqHHlg)",
+      "host": "services3.arcgis.com",
+      "endpoints": 86,
+      "agent_ready": 86,
+      "in_focus": 1,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization 0MSEUqKaxRlEPj5g",
+      "display": "ArcGIS Online layers (services1.arcgis.com, org 0MSEUqKaxRlEPj5g)",
+      "host": "services1.arcgis.com",
+      "endpoints": 83,
+      "agent_ready": 83,
+      "in_focus": 69,
+      "country_codes": 2,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "University of Minnesota (ArcGIS Online)",
+      "display": "University of Minnesota (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 81,
+      "agent_ready": 81,
+      "in_focus": 69,
+      "country_codes": 2,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Inter American Development Bank (ArcGIS Online)",
+      "display": "Inter American Development Bank (ArcGIS Online)",
+      "host": "services6.arcgis.com",
+      "endpoints": 75,
+      "agent_ready": 75,
+      "in_focus": 6,
+      "country_codes": 2,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization IfuVp8XpJ1OMwkV3",
+      "display": "ArcGIS Online layers (services1.arcgis.com, org IfuVp8XpJ1OMwkV3)",
+      "host": "services1.arcgis.com",
+      "endpoints": 73,
+      "agent_ready": 73,
+      "in_focus": 3,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "U.S. Geological Survey (ArcGIS Online)",
+      "display": "U.S. Geological Survey (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 72,
+      "agent_ready": 72,
+      "in_focus": 33,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "GeoPlatform ArcGIS Online (ArcGIS Online)",
+      "display": "GeoPlatform ArcGIS Online (ArcGIS Online)",
+      "host": "services1.arcgis.com",
+      "endpoints": 69,
+      "agent_ready": 69,
+      "in_focus": 32,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Power of Data (ArcGIS Online)",
+      "display": "Power of Data (ArcGIS Online)",
+      "host": "services4.arcgis.com",
+      "endpoints": 63,
+      "agent_ready": 63,
+      "in_focus": 43,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    }
+  ],
+  "bannerGroups": [
+    {
+      "label": "US",
+      "n": 6636,
+      "agent": 5658
+    },
+    {
+      "label": "CA",
+      "n": 390,
+      "agent": 381
+    },
+    {
+      "label": "GB",
+      "n": 268,
+      "agent": 258
+    },
+    {
+      "label": "IT",
+      "n": 192,
+      "agent": 69
+    },
+    {
+      "label": "AU",
+      "n": 127,
+      "agent": 113
+    },
+    {
+      "label": "CH",
+      "n": 126,
+      "agent": 110
+    }
+  ],
+  "focus_text": "title matches /earthquake|quake|seism|sism|\\bfaults?\\b|liquefact|epicent|shakemap|shake intensity|magnitude|tectonic|microzon|σεισμ|erdbeben|terremot|aardbeving|deprem|richter/i AND NOT title or subcategory matches /seismic[- ](lines?|profiles?|horizons?|shots?|stratigraph|sparker|reflection)|seismic[- ]survey[- ]profiles|seismic surveys?\\b|refractive seismic|seismic refraction|sismica[ _]rifrazione|marine[- ]seismic|time-lapse[- ]seismic|seismics|seismik|seismiek|seismische|reflexionsseism|sub-bottom|[23]d[ -]seism/i AND NOT title matches /reconstruct|payment|contribution|funding|recovery plus/i AND NOT title matches /\\btest\\b|_test|test_|\\bdemo\\b|_demo|gis_iii|^seismic monitoring stations /i AND NOT url matches /request=getcapabilities/i",
+  "buckets": [
+    {
+      "id": "agent",
+      "emoji": "🤖",
+      "name": "Agent tools",
+      "title": "Fault, seismic-hazard and earthquake layers an agent can query",
+      "build": "Wrap one layer query as a get_quake_layer tool: return the features (magnitude, fault name or hazard class) with a timeout. The tested layer queries return a few attribute rows and no geometry; set `returnGeometry=true` and add `geometry=lon,lat&geometryType=esriGeometryPoint&inSR=4326&spatialRel=esriSpatialRelIntersects` to ask about one place.",
+      "filter": {
+        "and": [
+          {
+            "tag": "agent-ready"
+          },
+          {
+            "titleMatches": "earthquake|quake|seism|sism|\\bfaults?\\b|liquefact|epicent|shakemap|shake intensity|magnitude|tectonic|microzon|σεισμ|erdbeben|terremot|aardbeving|deprem|richter"
+          }
+        ]
+      },
+      "filter_text": "tags has agent-ready AND title matches /earthquake|quake|seism|sism|\\bfaults?\\b|liquefact|epicent|shakemap|shake intensity|magnitude|tectonic|microzon|σεισμ|erdbeben|terremot|aardbeving|deprem|richter/i",
+      "fallback": false,
+      "notes": [
+        {
+          "count": 4254,
+          "text": "are map-layer queries that asked for a few records (`resultRecordCount`); raise it or page through for the whole layer."
+        }
+      ],
+      "count": 5567,
+      "services_matching": 882,
+      "country_codes_matching": 60,
+      "formats_matching": 1,
+      "example": {
+        "url": "https://earthquake.usgs.gov/arcgis/rest/services/eq/Recent_Earthquakes/MapServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+        "title": "M2.5 Recent Earthquakes",
+        "service": "USGS Earthquake Hazards",
+        "last_tested": "2026-11-14"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and are tagged `agent-ready` (no key sent in the test call, JSON body, passed a data call). Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `NOT url matches ///(services[0-9]*(-[a-z0-9]+)?|utility)\\.arcgis\\.com//i AND title matches /earthquake|fault|liquefaction/i`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 865,
+        "services": [
+          {
+            "service": "USGS Earthquake Hazards",
+            "display": "USGS Earthquake Hazards",
+            "host": "earthquake.usgs.gov",
+            "endpoints_in_bucket": 1021,
+            "endpoints_in_pack": 1144,
+            "country_codes": [
+              "AF",
+              "BO",
+              "FJ",
+              "IR",
+              "MM",
+              "PE",
+              "PG",
+              "PH",
+              "RU",
+              "SB",
+              "TJ",
+              "US",
+              "VU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://earthquake.usgs.gov/arcgis/rest/services/eq/Recent_Earthquakes/MapServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "M2.5 Recent Earthquakes",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Doi",
+            "display": "Doi",
+            "host": "doi.org",
+            "endpoints_in_bucket": 170,
+            "endpoints_in_pack": 209,
+            "country_codes": [],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://doi.org/10.5066/F71Z439C",
+            "sample_title": "2017 Valparaiso, Chile earthquake data - Digital Data",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "ArcGIS Online for Ontario Schools (ArcGIS Online)",
+            "display": "ArcGIS Online for Ontario Schools (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 157,
+            "endpoints_in_pack": 194,
+            "country_codes": [
+              "CA",
+              "GB",
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/QI0dObYawrKkuwDp/arcgis/rest/services/.Buffer of Tokyo Earthquake (Points)/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": ".Buffer of Tokyo Earthquake (Points)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Temple University (ArcGIS Online)",
+            "display": "Temple University (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 96,
+            "endpoints_in_pack": 96,
+            "country_codes": [
+              "ES",
+              "GB",
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/6fiE7QkLWSPMd0N5/arcgis/rest/services/%E2%80%9CUSGS_Earthquake_Magnitude_(Past_30_Days)%E2%80%9D/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "“USGS Earthquake Magnitude (Past 30 Days)”",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "University of Minnesota (ArcGIS Online)",
+            "display": "University of Minnesota (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 69,
+            "endpoints_in_pack": 81,
+            "country_codes": [
+              "CN",
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/8df8p0NlLFEShl0r/arcgis/rest/services/3_Earthquakes_txt_spreadsheet_(clean)___Copy_of_Earthquakes/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "3_Earthquakes txt spreadsheet (clean) _ Copy of Earthquakes",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Toronto District School Board (ArcGIS Online)",
+            "display": "Toronto District School Board (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 68,
+            "endpoints_in_pack": 147,
+            "country_codes": [
+              "CA",
+              "GB",
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/PuP9I73SXDqGc9Kp/arcgis/rest/services/%E2%80%9CRecent_Earthquakes%E2%80%9D/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "“Recent Earthquakes”",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Gymnasium Neufeld (ArcGIS Online)",
+            "display": "Gymnasium Neufeld (ArcGIS Online)",
+            "host": "services4.arcgis.com",
+            "endpoints_in_bucket": 65,
+            "endpoints_in_pack": 91,
+            "country_codes": [
+              "CH",
+              "DE"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services4.arcgis.com/ilQDmnFEeBEo2OXO/arcgis/rest/services/Aarons_Erdbebenrisiko/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "Aarons_Erdbebenrisiko",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "The George Washington University (ArcGIS Online)",
+            "display": "The George Washington University (ArcGIS Online)",
+            "host": "services9.arcgis.com",
+            "endpoints_in_bucket": 53,
+            "endpoints_in_pack": 53,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services9.arcgis.com/3Uashgo1dIULEkdu/arcgis/rest/services/2015_Nepal_Earthquake__Priority_Districts_and_Epicenters_WFL1/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "2015 Nepal Earthquake_ Priority Districts and Epicenters_WFL1",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          }
+        ]
+      }
+    },
+    {
+      "id": "app",
+      "emoji": "📱",
+      "name": "App features",
+      "title": "Earthquake maps by country, from event queries, GeoJSON and map layers",
+      "build": "Plot the events of one country on a map: each event query returns GeoJSON points with magnitude, depth and time; change starttime and the minimum magnitude in the URL for recent events.",
+      "filter": {
+        "or": [
+          {
+            "subcategoryMatches": "^Earthquakes \\((USGS|EMSC)"
+          },
+          {
+            "format": [
+              "geojson"
+            ]
+          },
+          {
+            "urlMatches": "/(featureserver|mapserver)/\\d+"
+          }
+        ]
+      },
+      "filter_text": "subcategory matches /^Earthquakes \\((USGS|EMSC)/i OR format is geojson OR url matches //(featureserver|mapserver)/\\d+/i",
+      "fallback": false,
+      "notes": [
+        {
+          "count": 222,
+          "text": "are USGS or EMSC event queries for one country box, a minimum magnitude and a start date; the others are GeoJSON files and map layers."
+        }
+      ],
+      "count": 7199,
+      "services_matching": 1217,
+      "country_codes_matching": 137,
+      "formats_matching": 2,
+      "example": {
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&minlatitude=-10.65&maxlatitude=-2.5&minlongitude=141.0&maxlongitude=156.02&starttime=2016-01-01&minmagnitude=4.5",
+        "title": "USGS earthquakes M4.5+ since 2016 in/near Papua New Guinea",
+        "service": "USGS Earthquake Hazards",
+        "last_tested": "2026-11-14"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `subcategory matches /^Earthquakes \\((USGS|EMSC)/i`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 826,
+        "services": [
+          {
+            "service": "ArcGIS Online for Ontario Schools (ArcGIS Online)",
+            "display": "ArcGIS Online for Ontario Schools (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 194,
+            "endpoints_in_pack": 194,
+            "country_codes": [
+              "CA",
+              "GB",
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/QI0dObYawrKkuwDp/arcgis/rest/services/.Buffer of Tokyo Earthquake (Points)/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": ".Buffer of Tokyo Earthquake (Points)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Toronto District School Board (ArcGIS Online)",
+            "display": "Toronto District School Board (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 147,
+            "endpoints_in_pack": 147,
+            "country_codes": [
+              "CA",
+              "GB",
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/PuP9I73SXDqGc9Kp/arcgis/rest/services/%E2%80%9CRecent_Earthquakes%E2%80%9D/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "“Recent Earthquakes”",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "USGS Earthquake Hazards",
+            "display": "USGS Earthquake Hazards",
+            "host": "earthquake.usgs.gov",
+            "endpoints_in_bucket": 144,
+            "endpoints_in_pack": 1144,
+            "country_codes": [
+              "AF",
+              "AO",
+              "AQ",
+              "AZ",
+              "BA",
+              "BD",
+              "BG",
+              "BI",
+              "BO",
+              "BT",
+              "BW",
+              "CD",
+              "CI",
+              "CR",
+              "CU",
+              "CY",
+              "DJ",
+              "DZ",
+              "EG",
+              "ER",
+              "ET",
+              "FJ",
+              "GA",
+              "GE",
+              "GL",
+              "GN",
+              "GT",
+              "GY",
+              "HN",
+              "HT",
+              "IQ",
+              "IR",
+              "JM",
+              "JO",
+              "KE",
+              "KP",
+              "KW",
+              "KZ",
+              "LA",
+              "LS",
+              "LY",
+              "MA",
+              "MD",
+              "ME",
+              "MG",
+              "MK",
+              "ML",
+              "MM",
+              "MN",
+              "MR",
+              "MW",
+              "MY",
+              "MZ",
+              "NA",
+              "NE",
+              "NI",
+              "NP",
+              "OM",
+              "PE",
+              "PG",
+              "PH",
+              "PR",
+              "RS",
+              "RU",
+              "RW",
+              "SA",
+              "SB",
+              "SI",
+              "SO",
+              "SS",
+              "SV",
+              "SY",
+              "TF",
+              "TJ",
+              "TL",
+              "TM",
+              "TN",
+              "TT",
+              "TZ",
+              "UG",
+              "US",
+              "UZ",
+              "VE",
+              "VU",
+              "YE",
+              "ZA",
+              "ZM",
+              "ZW"
+            ],
+            "formats": [
+              "geojson",
+              "json"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&minlatitude=-10.65&maxlatitude=-2.5&minlongitude=141.0&maxlongitude=156.02&starttime=2016-01-01&minmagnitude=4.5",
+            "sample_title": "USGS earthquakes M4.5+ since 2016 in/near Papua New Guinea",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Temple University (ArcGIS Online)",
+            "display": "Temple University (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 96,
+            "endpoints_in_pack": 96,
+            "country_codes": [
+              "ES",
+              "GB",
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/6fiE7QkLWSPMd0N5/arcgis/rest/services/%E2%80%9CUSGS_Earthquake_Magnitude_(Past_30_Days)%E2%80%9D/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "“USGS Earthquake Magnitude (Past 30 Days)”",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Gymnasium Neufeld (ArcGIS Online)",
+            "display": "Gymnasium Neufeld (ArcGIS Online)",
+            "host": "services4.arcgis.com",
+            "endpoints_in_bucket": 91,
+            "endpoints_in_pack": 91,
+            "country_codes": [
+              "CH",
+              "DE"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services4.arcgis.com/ilQDmnFEeBEo2OXO/arcgis/rest/services/Aarons_Erdbebenrisiko/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "Aarons_Erdbebenrisiko",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Seismicportal",
+            "display": "Seismicportal",
+            "host": "www.seismicportal.eu",
+            "endpoints_in_bucket": 90,
+            "endpoints_in_pack": 90,
+            "country_codes": [
+              "AF",
+              "AO",
+              "AQ",
+              "AZ",
+              "BA",
+              "BD",
+              "BG",
+              "BI",
+              "BO",
+              "BT",
+              "BW",
+              "BY",
+              "CD",
+              "CG",
+              "CR",
+              "CU",
+              "CY",
+              "DJ",
+              "DZ",
+              "EG",
+              "ER",
+              "ET",
+              "FJ",
+              "GA",
+              "GE",
+              "GH",
+              "GL",
+              "GN",
+              "GT",
+              "GY",
+              "HN",
+              "HT",
+              "IQ",
+              "IR",
+              "JM",
+              "JO",
+              "KE",
+              "KP",
+              "KW",
+              "KZ",
+              "LA",
+              "LB",
+              "LY",
+              "MA",
+              "MD",
+              "ME",
+              "MG",
+              "MK",
+              "MM",
+              "MN",
+              "MR",
+              "MW",
+              "MY",
+              "MZ",
+              "NA",
+              "NI",
+              "NP",
+              "OM",
+              "PE",
+              "PG",
+              "PH",
+              "PR",
+              "PS",
+              "PY",
+              "RS",
+              "RU",
+              "RW",
+              "SA",
+              "SB",
+              "SD",
+              "SI",
+              "SO",
+              "SS",
+              "SV",
+              "SY",
+              "TD",
+              "TJ",
+              "TL",
+              "TM",
+              "TN",
+              "TT",
+              "TZ",
+              "UG",
+              "UZ",
+              "VE",
+              "VU",
+              "YE",
+              "ZA",
+              "ZM",
+              "ZW"
+            ],
+            "formats": [
+              "geojson"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://www.seismicportal.eu/fdsnws/event/1/query?format=json&minlat=-1.44&maxlat=4.25&minlon=29.58&maxlon=35.04&start=2020-01-01&minmag=3.5&limit=500",
+            "sample_title": "EMSC earthquakes M3.5+ since 2020 in/near Uganda",
+            "sample_format": "geojson",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "University of Minnesota (ArcGIS Online)",
+            "display": "University of Minnesota (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 81,
+            "endpoints_in_pack": 81,
+            "country_codes": [
+              "CN",
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/8df8p0NlLFEShl0r/arcgis/rest/services/3_Earthquakes_txt_spreadsheet_(clean)___Copy_of_Earthquakes/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "3_Earthquakes txt spreadsheet (clean) _ Copy of Earthquakes",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Inter American Development Bank (ArcGIS Online)",
+            "display": "Inter American Development Bank (ArcGIS Online)",
+            "host": "services6.arcgis.com",
+            "endpoints_in_bucket": 75,
+            "endpoints_in_pack": 75,
+            "country_codes": [
+              "CO",
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services6.arcgis.com/sROlVM0rATIYgC6a/arcgis/rest/services/Brazil_Seismic_Risk_Profiles_%E2%80%93_GEM_Foundation/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "Brazil Seismic Risk Profiles – GEM Foundation",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grounding",
+      "emoji": "🧠",
+      "name": "Grounding and data pipelines",
+      "title": "Seismic-hazard zones, microzonation and event lists for scheduled loads",
+      "build": "Load event lists and hazard zones on a schedule into your own store, so answers about earthquake risk cite a dated source.",
+      "filter": {
+        "and": [
+          {
+            "format": [
+              "geojson",
+              "csv",
+              "xml",
+              "zip",
+              "txt"
+            ]
+          },
+          {
+            "not": {
+              "urlMatches": "request=getcapabilities"
+            }
+          }
+        ]
+      },
+      "filter_text": "format in (geojson, csv, xml, zip, txt) AND NOT url matches /request=getcapabilities/i",
+      "fallback": false,
+      "notes": [],
+      "count": 2101,
+      "services_matching": 79,
+      "country_codes_matching": 116,
+      "formats_matching": 5,
+      "example": {
+        "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.csv",
+        "title": "USGS Magnitude 2.5+ Earthquakes - USGS Magnitude 2.5+ Earthquakes, Past Day (csv)",
+        "service": "USGS Earthquake Hazards",
+        "last_tested": "2026-11-15"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `format in (geojson, csv)`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 52,
+        "services": [
+          {
+            "service": "Usgs",
+            "display": "Usgs",
+            "host": "data.usgs.gov",
+            "endpoints_in_bucket": 925,
+            "endpoints_in_pack": 925,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "xml"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://data.usgs.gov/datacatalog/metadata/USGS.00edba81-81a5-48da-bfb1-27b7eb506ac8.xml",
+            "sample_title": "lanai_vol - Volcanic and Seismic Hazard Intensity Level in the coastal zone of Lanai, Hawaii - Original Metadata",
+            "sample_format": "xml",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Amerigeo",
+            "display": "Amerigeo",
+            "host": "www.amerigeo.org",
+            "endpoints_in_bucket": 384,
+            "endpoints_in_pack": 567,
+            "country_codes": [],
+            "formats": [
+              "xml",
+              "csv",
+              "geojson"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://www.amerigeo.org/api/download/v1/items/47b2577fc57446889acafc3d960d2a0b/csv?layers=2",
+            "sample_title": "earthquakes - CSV",
+            "sample_format": "csv",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Napsgfoundation",
+            "display": "Napsgfoundation",
+            "host": "prep-response-portal.napsgfoundation.org",
+            "endpoints_in_bucket": 196,
+            "endpoints_in_pack": 291,
+            "country_codes": [],
+            "formats": [
+              "csv",
+              "xml",
+              "geojson",
+              "zip"
+            ],
+            "formats_in_pack": 5,
+            "sample_url": "https://prep-response-portal.napsgfoundation.org/api/download/v1/items/79461a1ec0974301bde274177c7108bd/csv?layers=0",
+            "sample_title": "Global Earthquake Archive - CSV",
+            "sample_format": "csv",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "USGS Earthquake Hazards",
+            "display": "USGS Earthquake Hazards",
+            "host": "earthquake.usgs.gov",
+            "endpoints_in_bucket": 121,
+            "endpoints_in_pack": 1144,
+            "country_codes": [
+              "AF",
+              "AO",
+              "AQ",
+              "AZ",
+              "BA",
+              "BD",
+              "BG",
+              "BI",
+              "BO",
+              "BT",
+              "BW",
+              "CD",
+              "CI",
+              "CR",
+              "CU",
+              "CY",
+              "DJ",
+              "DZ",
+              "EG",
+              "ER",
+              "ET",
+              "FJ",
+              "GA",
+              "GE",
+              "GL",
+              "GN",
+              "GT",
+              "GY",
+              "HN",
+              "HT",
+              "IQ",
+              "IR",
+              "JM",
+              "JO",
+              "KE",
+              "KP",
+              "KW",
+              "KZ",
+              "LA",
+              "LS",
+              "LY",
+              "MA",
+              "MD",
+              "ME",
+              "MG",
+              "MK",
+              "ML",
+              "MM",
+              "MN",
+              "MR",
+              "MW",
+              "MY",
+              "MZ",
+              "NA",
+              "NE",
+              "NI",
+              "NP",
+              "OM",
+              "PE",
+              "PG",
+              "PH",
+              "PR",
+              "RS",
+              "RW",
+              "SA",
+              "SB",
+              "SI",
+              "SO",
+              "SS",
+              "SV",
+              "SY",
+              "TF",
+              "TJ",
+              "TL",
+              "TM",
+              "TN",
+              "TT",
+              "TZ",
+              "UG",
+              "US",
+              "UZ",
+              "VE",
+              "VU",
+              "YE",
+              "ZA",
+              "ZM",
+              "ZW"
+            ],
+            "formats": [
+              "geojson",
+              "csv"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.csv",
+            "sample_title": "USGS Magnitude 2.5+ Earthquakes - USGS Magnitude 2.5+ Earthquakes, Past Day (csv)",
+            "sample_format": "csv",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Seismicportal",
+            "display": "Seismicportal",
+            "host": "www.seismicportal.eu",
+            "endpoints_in_bucket": 90,
+            "endpoints_in_pack": 90,
+            "country_codes": [
+              "AF",
+              "AO",
+              "AQ",
+              "AZ",
+              "BA",
+              "BD",
+              "BG",
+              "BI",
+              "BO",
+              "BT",
+              "BW",
+              "BY",
+              "CD",
+              "CG",
+              "CR",
+              "CU",
+              "CY",
+              "DJ",
+              "DZ",
+              "EG",
+              "ER",
+              "ET",
+              "FJ",
+              "GA",
+              "GE",
+              "GH",
+              "GL",
+              "GN",
+              "GT",
+              "GY",
+              "HN",
+              "HT",
+              "IQ",
+              "IR",
+              "JM",
+              "JO",
+              "KE",
+              "KP",
+              "KW",
+              "KZ",
+              "LA",
+              "LB",
+              "LY",
+              "MA",
+              "MD",
+              "ME",
+              "MG",
+              "MK",
+              "MM",
+              "MN",
+              "MR",
+              "MW",
+              "MY",
+              "MZ",
+              "NA",
+              "NI",
+              "NP",
+              "OM",
+              "PE",
+              "PG",
+              "PH",
+              "PR",
+              "PS",
+              "PY",
+              "RS",
+              "RU",
+              "RW",
+              "SA",
+              "SB",
+              "SD",
+              "SI",
+              "SO",
+              "SS",
+              "SV",
+              "SY",
+              "TD",
+              "TJ",
+              "TL",
+              "TM",
+              "TN",
+              "TT",
+              "TZ",
+              "UG",
+              "UZ",
+              "VE",
+              "VU",
+              "YE",
+              "ZA",
+              "ZM",
+              "ZW"
+            ],
+            "formats": [
+              "geojson"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://www.seismicportal.eu/fdsnws/event/1/query?format=json&minlat=-1.44&maxlat=4.25&minlon=29.58&maxlon=35.04&start=2020-01-01&minmag=3.5&limit=500",
+            "sample_title": "EMSC earthquakes M3.5+ since 2020 in/near Uganda",
+            "sample_format": "geojson",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Arezzo",
+            "display": "Arezzo",
+            "host": "sit.comune.arezzo.it",
+            "endpoints_in_bucket": 52,
+            "endpoints_in_pack": 56,
+            "country_codes": [
+              "IT"
+            ],
+            "formats": [
+              "xml",
+              "geojson"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://sit.comune.arezzo.it/metarepo2/api/datasets/fattibilita_sismica_interventi_app/resources/404/GeoJSON",
+            "sample_title": "Seismic feasibility of interventions - Approved",
+            "sample_format": "geojson",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Nzsee",
+            "display": "Nzsee",
+            "host": "bulletin.nzsee.org.nz",
+            "endpoints_in_bucket": 26,
+            "endpoints_in_pack": 26,
+            "country_codes": [
+              "NZ"
+            ],
+            "formats": [
+              "xml"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://bulletin.nzsee.org.nz/index.php/bnzsee/oai?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai%3Abulletin.nzsee.org.nz%3Aarticle%2F10",
+            "sample_title": "Bulletin of the New Zealand Society for Earthquake Engineering: OAI-PMH",
+            "sample_format": "xml",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Openei",
+            "display": "Openei",
+            "host": "gdr.openei.org",
+            "endpoints_in_bucket": 14,
+            "endpoints_in_pack": 14,
+            "country_codes": [],
+            "formats": [
+              "csv",
+              "xml"
+            ],
+            "formats_in_pack": 2,
+            "sample_url": "https://gdr.openei.org/files/1121/2DVpModel.csv",
+            "sample_title": "EGS Collab Experiment 1: Baseline Cross-well Seismic - 2D Vp Model.csv",
+            "sample_format": "csv",
+            "sample_last_tested": "2026-11-15"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evals",
+      "emoji": "🧪",
+      "name": "Evals and testing",
+      "title": "Event queries, hazard layers and files to test a quake tool",
+      "build": "Run your quake tool against a fixed set of URLs across formats; check that magnitude, depth, time or hazard class parse, and keep last_tested as the baseline for your own re-tests.",
+      "filter": {
+        "whole": true
+      },
+      "filter_text": "the whole pack",
+      "fallback": false,
+      "notes": [],
+      "count": 10873,
+      "services_matching": 1324,
+      "country_codes_matching": 144,
+      "formats_matching": 6,
+      "example": {
+        "url": "https://earthquake.usgs.gov/arcgis/rest/services/eq/Recent_Earthquakes/MapServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+        "title": "M2.5 Recent Earthquakes",
+        "service": "USGS Earthquake Hazards",
+        "last_tested": "2026-11-14"
+      },
+      "recommended": {
+        "criteria": "Services in this pack that returned the most different formats, then the most endpoints that passed a data call, then by name: a mix of response shapes to test parsers and tool calls. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 899,
+        "services": [
+          {
+            "service": "Napsgfoundation",
+            "display": "Napsgfoundation",
+            "host": "prep-response-portal.napsgfoundation.org",
+            "endpoints_in_bucket": 291,
+            "endpoints_in_pack": 291,
+            "country_codes": [],
+            "formats": [
+              "csv",
+              "json",
+              "xml",
+              "geojson",
+              "zip"
+            ],
+            "formats_in_pack": 5,
+            "sample_url": "https://prep-response-portal.napsgfoundation.org/api/download/v1/items/79461a1ec0974301bde274177c7108bd/geojson?layers=0",
+            "sample_title": "Global Earthquake Archive - GeoJSON",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "California Natural Resources Agency Open",
+            "display": "California Natural Resources Agency Open",
+            "host": "gis.data.cnra.ca.gov",
+            "endpoints_in_bucket": 9,
+            "endpoints_in_pack": 9,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "csv",
+              "json",
+              "xml",
+              "geojson",
+              "zip"
+            ],
+            "formats_in_pack": 5,
+            "sample_url": "https://gis.data.cnra.ca.gov/api/download/v1/items/0860546963f147c78db3da52cd7ee413/geojson?layers=0",
+            "sample_title": "CGS Seismic Hazards Program: Landslide Zones - GeoJSON",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Amerigeo",
+            "display": "Amerigeo",
+            "host": "www.amerigeo.org",
+            "endpoints_in_bucket": 567,
+            "endpoints_in_pack": 567,
+            "country_codes": [],
+            "formats": [
+              "xml",
+              "csv",
+              "json",
+              "geojson"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://www.amerigeo.org/api/download/v1/items/47b2577fc57446889acafc3d960d2a0b/geojson?layers=2",
+            "sample_title": "earthquakes - GeoJSON",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "Greece National Data Portal",
+            "display": "Greece National Data Portal",
+            "host": "gisservices.chania.gr",
+            "endpoints_in_bucket": 15,
+            "endpoints_in_pack": 15,
+            "country_codes": [
+              "GR"
+            ],
+            "formats": [
+              "csv",
+              "xml",
+              "json",
+              "geojson"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://gisservices.chania.gr/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=chaniavec%3Atee_seismiki_trototita_pol_blocknu&outputFormat=application%2Fjson",
+            "sample_title": "Δεδομένα Σεισμικής Τρωτότητας - Οικοδομικά τετράγωνα (Υπόβαθρα ΕΣΥΕ)",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Greece National Data Portal",
+            "display": "Greece National Data Portal",
+            "host": "gis.crete.gov.gr",
+            "endpoints_in_bucket": 12,
+            "endpoints_in_pack": 12,
+            "country_codes": [
+              "GR"
+            ],
+            "formats": [
+              "csv",
+              "xml",
+              "geojson",
+              "json"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://gis.crete.gov.gr/geoserver/wfs?service=WFS&version=2.0.0&request=GetFeature&typeNames=gisvec%3Aenv_pol_seismikes_zones&outputFormat=application%2Fjson",
+            "sample_title": "Σεισμικές Ζώνες",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "ArcGIS Online: Upper Paleocene Selandian T31 T34",
+            "display": "ArcGIS Online: Upper Paleocene Selandian T31 T34",
+            "host": "open-data-ukcs-transition.hub.arcgis.com",
+            "endpoints_in_bucket": 11,
+            "endpoints_in_pack": 11,
+            "country_codes": [
+              "GB"
+            ],
+            "formats": [
+              "csv",
+              "json",
+              "zip",
+              "geojson"
+            ],
+            "formats_in_pack": 4,
+            "sample_url": "https://open-data-ukcs-transition.hub.arcgis.com/api/download/v1/items/11f57fb0d776460fb73b6989636c2de1/geojson?layers=0",
+            "sample_title": "UKCS government seismic MNSH legacy reprocessed 2015 (ED50) - GeoJSON",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-15"
+          },
+          {
+            "service": "USGS Earthquake Hazards",
+            "display": "USGS Earthquake Hazards",
+            "host": "earthquake.usgs.gov",
+            "endpoints_in_bucket": 1144,
+            "endpoints_in_pack": 1144,
+            "country_codes": [
+              "AF",
+              "AO",
+              "AQ",
+              "AZ",
+              "BA",
+              "BD",
+              "BG",
+              "BI",
+              "BO",
+              "BT",
+              "BW",
+              "CD",
+              "CI",
+              "CR",
+              "CU",
+              "CY",
+              "DJ",
+              "DZ",
+              "EG",
+              "ER",
+              "ET",
+              "FJ",
+              "GA",
+              "GE",
+              "GL",
+              "GN",
+              "GT",
+              "GY",
+              "HN",
+              "HT",
+              "IQ",
+              "IR",
+              "JM",
+              "JO",
+              "KE",
+              "KP",
+              "KW",
+              "KZ",
+              "LA",
+              "LS",
+              "LY",
+              "MA",
+              "MD",
+              "ME",
+              "MG",
+              "MK",
+              "ML",
+              "MM",
+              "MN",
+              "MR",
+              "MW",
+              "MY",
+              "MZ",
+              "NA",
+              "NE",
+              "NI",
+              "NP",
+              "OM",
+              "PE",
+              "PG",
+              "PH",
+              "PR",
+              "RS",
+              "RU",
+              "RW",
+              "SA",
+              "SB",
+              "SI",
+              "SO",
+              "SS",
+              "SV",
+              "SY",
+              "TF",
+              "TJ",
+              "TL",
+              "TM",
+              "TN",
+              "TT",
+              "TZ",
+              "UG",
+              "US",
+              "UZ",
+              "VE",
+              "VU",
+              "YE",
+              "ZA",
+              "ZM",
+              "ZW"
+            ],
+            "formats": [
+              "json",
+              "geojson",
+              "csv"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://earthquake.usgs.gov/arcgis/rest/services/eq/Recent_Earthquakes/MapServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "M2.5 Recent Earthquakes",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          },
+          {
+            "service": "Arezzo",
+            "display": "Arezzo",
+            "host": "sit.comune.arezzo.it",
+            "endpoints_in_bucket": 56,
+            "endpoints_in_pack": 56,
+            "country_codes": [
+              "IT"
+            ],
+            "formats": [
+              "xml",
+              "geojson",
+              "json"
+            ],
+            "formats_in_pack": 3,
+            "sample_url": "https://sit.comune.arezzo.it/metarepo2/api/datasets/pericolosita_sismica/resources/67/GeoJSON",
+            "sample_title": "Seismic hazard",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-14"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "q": "Which M4.5+ earthquakes since 2016 does USGS list in or near a given country?",
+      "filter": "url contains \"earthquake.usgs.gov/fdsnws/event/1/query\" AND title matches /M4\\.5\\+ since 2016/i",
+      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&minlatitude=-10.65&maxlatitude=-2.5&minlongitude=141.0&maxlongitude=156.02&starttime=2016-01-01&minmagnitude=4.5",
+      "title": "USGS earthquakes M4.5+ since 2016 in/near Papua New Guinea",
+      "service": "USGS Earthquake Hazards",
+      "last_tested": "2026-11-14",
+      "matching": 86
+    },
+    {
+      "q": "Which M3.5+ earthquakes since 2020 does EMSC list near a given country?",
+      "filter": "url contains \"seismicportal.eu/fdsnws/event/1/query\"",
+      "url": "https://www.seismicportal.eu/fdsnws/event/1/query?format=json&minlat=-1.44&maxlat=4.25&minlon=29.58&maxlon=35.04&start=2020-01-01&minmag=3.5&limit=500",
+      "title": "EMSC earthquakes M3.5+ since 2020 in/near Uganda",
+      "service": "Seismicportal",
+      "last_tested": "2026-11-14",
+      "matching": 90
+    },
+    {
+      "q": "Which Quaternary faults does USGS map, with their slip rate and age? The tested URL asks for a few sections; add a where clause or a geometry for one state.",
+      "filter": "url contains \"earthquake.usgs.gov/arcgis/rest/services/haz/Qfaults\"",
+      "url": "https://earthquake.usgs.gov/arcgis/rest/services/haz/Qfaults/MapServer/11/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+      "title": "Hazard - Earthquake - Live - Line - Nevada / Fault Lines (USGS)",
+      "service": "USGS Earthquake Hazards",
+      "last_tested": "2026-11-15",
+      "matching": 7
+    },
+    {
+      "q": "What does the California layer of weekly M2+ earthquakes list?",
+      "filter": "url contains \"CGS/Weekly_Earthquakes_M2Plus\"",
+      "url": "https://gis.conservation.ca.gov/server/rest/services/CGS/Weekly_Earthquakes_M2Plus/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+      "title": "California Weekly Earthquakes M2 Plus",
+      "service": "gis.conservation.ca.gov",
+      "last_tested": "2026-11-14",
+      "matching": 2
+    }
+  ],
+  "preview_focused": true,
+  "preview": [
+    {
+      "title": "M2.5 Recent Earthquakes",
+      "service": "USGS Earthquake Hazards",
+      "country": "US",
+      "category": "Hazards",
+      "subcategory": "",
+      "format": "json",
+      "tags": "hazards|earthquakes|maps|no-key|json|agent-ready",
+      "last_tested": "2026-11-14",
+      "host": "earthquake.usgs.gov",
+      "url": "https://earthquake.usgs.gov/arcgis/rest/services/eq/Recent_Earthquakes/MapServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json"
+    },
+    {
+      "title": "lanai_vol - Volcanic and Seismic Hazard Intensity Level in the coastal zone of Lanai, Hawaii - Original Metadata",
+      "service": "Usgs",
+      "country": "US",
+      "category": "Hazards",
+      "subcategory": "",
+      "format": "xml",
+      "tags": "hazards|earthquakes|volcanoes|open-data|no-key|xml",
+      "last_tested": "2026-11-15",
+      "host": "data.usgs.gov",
+      "url": "https://data.usgs.gov/datacatalog/metadata/USGS.00edba81-81a5-48da-bfb1-27b7eb506ac8.xml"
+    },
+    {
+      "title": "2019_April_18_One_Day_Earthquakes_WSL1",
+      "service": "ArcGIS Online layers (services6.arcgis.com, org tuxY7TQIaDhLWARO)",
+      "country": "US",
+      "category": "Hazards",
+      "subcategory": "",
+      "format": "json",
+      "tags": "hazards|earthquakes|maps|no-key|json|agent-ready",
+      "last_tested": "2026-11-15",
+      "host": "services6.arcgis.com",
+      "url": "https://services6.arcgis.com/tuxY7TQIaDhLWARO/arcgis/rest/services/2019_April_18_One_Day_Earthquakes_WSL1/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json"
+    },
+    {
+      "title": "(Join_Features)_to_Severity_of_Earthquake_Responses",
+      "service": "ArcGIS Online layers (services5.arcgis.com, org W1uyphp8h2tna3qJ)",
+      "country": "",
+      "category": "Hazards",
+      "subcategory": "",
+      "format": "json",
+      "tags": "hazards|earthquakes|maps|no-key|json|agent-ready",
+      "last_tested": "2026-11-15",
+      "host": "services5.arcgis.com",
+      "url": "https://services5.arcgis.com/W1uyphp8h2tna3qJ/arcgis/rest/services/(Join_Features)_to_Severity_of_Earthquake_Responses/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json"
+    },
+    {
+      "title": ".Buffer of Tokyo Earthquake (Points)",
+      "service": "ArcGIS Online for Ontario Schools (ArcGIS Online)",
+      "country": "CA",
+      "category": "Hazards",
+      "subcategory": "",
+      "format": "json",
+      "tags": "hazards|earthquakes|maps|no-key|json|agent-ready",
+      "last_tested": "2026-11-15",
+      "host": "services.arcgis.com",
+      "url": "https://services.arcgis.com/QI0dObYawrKkuwDp/arcgis/rest/services/.Buffer of Tokyo Earthquake (Points)/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json"
+    }
+  ],
+  "limits": [
+    {
+      "id": "skew",
+      "text": "61.0% of rows carry country code US; 1,997 rows have no code (global or unknown)."
+    },
+    {
+      "id": "record-count",
+      "text": "6,882 rows are map-layer queries with resultRecordCount set: the tested call asked for a few records; change the query to get the full layer."
+    },
+    {
+      "id": "limit-1",
+      "text": "19 rows carry limit=1: the tested call asked for one record; raise the limit or page through."
+    },
+    {
+      "id": "portal",
+      "text": "37 rows are open-data portal dataset records, which may return a dataset record with links rather than the table itself."
+    },
+    {
+      "id": "files",
+      "text": "47 rows are files (zip 41, txt 6) rather than bodies an agent reads directly."
+    },
+    {
+      "id": "arcgis-online",
+      "text": "6,481 rows are layers on ArcGIS Online, where anyone can publish: some are class projects, tests or copies. Check the owner and the fields before you rely on one."
+    },
+    {
+      "id": "pack",
+      "text": "4,097 rows carry the earthquakes tag but have no earthquake, fault or seismic term in the title. Check the title before you use one; they are not used as starting points."
+    },
+    {
+      "id": "pack",
+      "text": "524 rows are seismic surveys of the ground (lines, profiles, shots, passive surveys and monitoring), not earthquake records; they are not used as starting points."
+    },
+    {
+      "id": "pack",
+      "text": "150 rows are test, demo or class-exercise layers (course projects, station layers copied with initials added); they are not used as starting points."
+    },
+    {
+      "id": "pack",
+      "text": "76 rows are WMS or WFS capability documents (`request=GetCapabilities`): they list the layers of a map service; a second request returns the features."
+    },
+    {
+      "id": "pack",
+      "text": "14 rows are about funding, payments or recovery after an earthquake, not about the events."
+    },
+    {
+      "id": "pack",
+      "text": "70 rows from New Zealand (.nz) or Canadian (.ca) hosts carry another country code (GB or US) in this snapshot; filter by host when you need one country."
+    },
+    {
+      "id": "pack",
+      "text": "222 rows are USGS or EMSC event queries with a fixed country box, minimum magnitude and start date; they return past events in that window until you change the query."
+    },
+    {
+      "id": "quiet",
+      "text": "Stations and feeds can go quiet after their test date; re-test a URL before you rely on it."
+    },
+    {
+      "id": "not-in",
+      "text": "Not in this pack: endpoints that need a key or a POST, and URLs that did not pass."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 158 ArcGIS Survey123 layers (they can hold people's form answers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 1 layer marked editable in the title (it can hold entries that people added)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 11 ArcGIS layers that keep a form's default service name (they can hold people's form answers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 160 ArcGIS class or coursework layers (lab, assignment, exam, quiz, lesson, exercise, tutorial and final-project layers, copies of class layers, layers named for a person or a person's home, and layers whose name ends in a person's name or holds a student number)."
+    }
+  ],
+  "name": "10k-earthquake-apis-for-agents",
+  "old_name": "earthquake-api-endpoints",
+  "services_tested": {
+    "services": 1326,
+    "tested": 635539,
+    "passed": 519782,
+    "passed_pct": 81,
+    "line": "Across these services: 630k tested · 81% passed a keyless call",
+    "note": "Counted over the 1,326 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+  },
+  "overlaps": [
+    {
+      "repo": "weather-api-endpoints",
+      "name": "190k-weather-apis-for-agents",
+      "title": "Weather API endpoints",
+      "shared": 121
+    },
+    {
+      "repo": "transit-api-endpoints",
+      "name": "270k-transit-apis-for-agents",
+      "title": "Transit API endpoints",
+      "shared": 34
+    },
+    {
+      "repo": "water-api-endpoints",
+      "name": "270k-water-apis-for-agents",
+      "title": "Rivers and water API endpoints",
+      "shared": 226
+    },
+    {
+      "repo": "finance-economy-api-endpoints",
+      "name": "130k-finance-economy-apis-for-agents",
+      "title": "Finance and economy API endpoints",
+      "shared": 13
+    },
+    {
+      "repo": "india-api-endpoints",
+      "name": "130k-india-apis-for-agents",
+      "title": "India API endpoints",
+      "shared": 13
+    },
+    {
+      "repo": "government-open-data-api-endpoints",
+      "name": "1.3m-government-open-data-apis",
+      "title": "Government open data API endpoints",
+      "shared": 160
+    },
+    {
+      "repo": "statistics-api-endpoints",
+      "name": "290k-statistics-apis-for-agents",
+      "title": "Statistics and census API endpoints",
+      "shared": 14
+    },
+    {
+      "repo": "oceans-api-endpoints",
+      "name": "86k-oceans-apis-for-agents",
+      "title": "Ocean and marine API endpoints",
+      "shared": 90
+    },
+    {
+      "repo": "maritime-api-endpoints",
+      "name": "24k-maritime-apis-for-agents",
+      "title": "Maritime API endpoints",
+      "shared": 115
+    },
+    {
+      "repo": "environment-api-endpoints",
+      "name": "170k-environment-apis-for-agents",
+      "title": "Environment API endpoints",
+      "shared": 36
+    },
+    {
+      "repo": "air-quality-api-endpoints",
+      "name": "20k-air-quality-apis-for-agents",
+      "title": "Air quality API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "maps-gis-api-endpoints",
+      "name": "380k-maps-gis-apis-for-agents",
+      "title": "Maps and GIS API endpoints",
+      "shared": 83
+    },
+    {
+      "repo": "agent-ready-api-endpoints",
+      "name": "2.5m-agent-ready-apis",
+      "title": "Agent-ready API endpoints",
+      "shared": 8696
+    },
+    {
+      "repo": "health-api-endpoints",
+      "name": "96k-health-apis-for-agents",
+      "title": "Health API endpoints",
+      "shared": 3
+    },
+    {
+      "repo": "science-api-endpoints",
+      "name": "380k-science-apis-for-agents",
+      "title": "Science API endpoints",
+      "shared": 100
+    },
+    {
+      "repo": "hazards-api-endpoints",
+      "name": "53k-hazards-apis-for-agents",
+      "title": "Hazards and alerts API endpoints",
+      "shared": 10315
+    },
+    {
+      "repo": "wildfire-api-endpoints",
+      "name": "6.5k-wildfire-apis-for-agents",
+      "title": "Wildfire API endpoints",
+      "shared": 33
+    },
+    {
+      "repo": "energy-api-endpoints",
+      "name": "72k-energy-apis-for-agents",
+      "title": "Energy API endpoints",
+      "shared": 1
+    },
+    {
+      "repo": "aviation-api-endpoints",
+      "name": "25k-aviation-apis-for-agents",
+      "title": "Aviation API endpoints",
+      "shared": 8
+    },
+    {
+      "repo": "traffic-api-endpoints",
+      "name": "24k-traffic-apis-for-agents",
+      "title": "Traffic and roadworks API endpoints",
+      "shared": 1
+    },
+    {
+      "repo": "parking-api-endpoints",
+      "name": "12k-parking-apis-for-agents",
+      "title": "Parking API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "volcano-tsunami-api-endpoints",
+      "name": "5.2k-volcano-tsunami-apis-for-agents",
+      "title": "Volcano and tsunami API endpoints",
+      "shared": 468
+    },
+    {
+      "repo": "bike-share-api-endpoints",
+      "name": "17k-bike-share-apis-for-agents",
+      "title": "Bike-share API endpoints",
+      "shared": 0
+    }
+  ],
+  "pack_count": 24,
+  "services_file_rows": 1324,
+  "sample_mix": [
+    {
+      "source": "ArcGIS Online layers",
+      "focus_rows": 3836,
+      "sample_rows": 500
+    },
+    {
+      "source": "USGS Earthquake Hazards (earthquake.usgs.gov)",
+      "focus_rows": 1142,
+      "sample_rows": 159
+    },
+    {
+      "source": "Usgs (data.usgs.gov)",
+      "focus_rows": 320,
+      "sample_rows": 45
+    },
+    {
+      "source": "Doi (doi.org)",
+      "focus_rows": 136,
+      "sample_rows": 20
+    },
+    {
+      "source": "Seismicportal (www.seismicportal.eu)",
+      "focus_rows": 90,
+      "sample_rows": 14
+    },
+    {
+      "source": "Arezzo (sit.comune.arezzo.it)",
+      "focus_rows": 40,
+      "sample_rows": 7
+    },
+    {
+      "source": "Italia Dati municipal dashboards (cruscotto-italia.dati.gov.it)",
+      "focus_rows": 39,
+      "sample_rows": 7
+    },
+    {
+      "source": "data.gov.au (services.ga.gov.au)",
+      "focus_rows": 36,
+      "sample_rows": 6
+    },
+    {
+      "source": "ArcGIS Online publisher (lkfyxb9zdq7vaoam.svcsdev.arcgis.com)",
+      "focus_rows": 30,
+      "sample_rows": 5
+    },
+    {
+      "source": "Nzsee (bulletin.nzsee.org.nz)",
+      "focus_rows": 26,
+      "sample_rows": 5
+    }
+  ],
+  "sample_focus_rows": 6177,
+  "sample_rule": "1,000 rows, or one third of the pack rounded down, whichever is smaller",
+  "files": [
+    {
+      "name": "data/Earthquake_API_Services_AgentPopulation.csv",
+      "rows": 1324,
+      "bytes": 82543,
+      "sha256": "6b658b20336d4e9bc1b88b96677ac85624d64c20fd0dc4c6105be622d5fa0737"
+    },
+    {
+      "name": "data/Earthquake_API_Endpoints_AgentPopulation_Sample.csv",
+      "rows": 1000,
+      "bytes": 330369,
+      "sha256": "bfe1a400e00957f70137cc4e9bb23d62abec9e11ecde5fc5e50ec439520fc61e"
+    },
+    {
+      "name": "data/Earthquake_API_Endpoints_AgentPopulation_Sample.json",
+      "rows": 1000,
+      "bytes": 530096,
+      "sha256": "df2bfcde7ad415e9aa32345e74e8ce110069afd0ca6e28c42d98c0977e32b666"
+    }
+  ],
+  "release_asset": {
+    "name": "Earthquake_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+    "rows": 10873,
+    "bytes": 520173,
+    "raw_bytes": 3586832,
+    "sha256": "d18b360a8af477daf141f76fd159ab327acbcd0fc73d7281e1e0f8538f2a11e4",
+    "url": "https://github.com/agentpopulation/10k-earthquake-apis-for-agents/releases/latest/download/Earthquake_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz"
+  },
+  "release_tag": "snapshot-2026-11-15",
+  "description": "10,873 earthquake API endpoints that passed a keyless data call. For agent tools, apps, pipelines and evals. CSV, CC BY 4.0.",
+  "readme_ap_share": 0.084,
+  "country_counts": {
+    "US": 6636,
+    "": 1997,
+    "CA": 390,
+    "GB": 268,
+    "IT": 192,
+    "AU": 127,
+    "CH": 126,
+    "NZ": 116,
+    "ES": 101,
+    "DE": 88,
+    "JP": 59,
+    "RO": 53,
+    "GR": 51,
+    "BE": 44,
+    "NO": 39,
+    "CO": 35,
+    "FR": 29,
+    "DK": 27,
+    "CN": 22,
+    "MY": 22,
+    "SG": 17,
+    "CL": 16,
+    "TW": 14,
+    "IN": 13,
+    "PL": 13,
+    "HK": 12,
+    "NL": 10,
+    "PH": 10,
+    "IE": 9,
+    "MM": 9,
+    "SK": 9,
+    "TR": 9,
+    "VE": 9,
+    "ID": 8,
+    "NP": 7,
+    "IL": 6,
+    "PE": 6,
+    "ZA": 6,
+    "BR": 5,
+    "PR": 5,
+    "PT": 5,
+    "TH": 5,
+    "AI": 4,
+    "BG": 4,
+    "CR": 4,
+    "EG": 4,
+    "IO": 4,
+    "JM": 4,
+    "LA": 4,
+    "MA": 4,
+    "PG": 4,
+    "SA": 4,
+    "SV": 4,
+    "VU": 4,
+    "AF": 3,
+    "AQ": 3,
+    "AT": 3,
+    "AZ": 3,
+    "BO": 3,
+    "BT": 3,
+    "BW": 3,
+    "CD": 3,
+    "DZ": 3,
+    "EC": 3,
+    "EE": 3,
+    "FJ": 3,
+    "GE": 3,
+    "GL": 3,
+    "GT": 3,
+    "HN": 3,
+    "HT": 3,
+    "IQ": 3,
+    "IR": 3,
+    "KP": 3,
+    "KR": 3,
+    "KZ": 3,
+    "MN": 3,
+    "MW": 3,
+    "MX": 3,
+    "MZ": 3,
+    "NI": 3,
+    "RU": 3,
+    "RW": 3,
+    "SB": 3,
+    "SY": 3,
+    "TJ": 3,
+    "TM": 3,
+    "TZ": 3,
+    "UZ": 3,
+    "YE": 3,
+    "AM": 2,
+    "AO": 2,
+    "BA": 2,
+    "BD": 2,
+    "BI": 2,
+    "CU": 2,
+    "CY": 2,
+    "CZ": 2,
+    "DJ": 2,
+    "ER": 2,
+    "ET": 2,
+    "EU": 2,
+    "GA": 2,
+    "GN": 2,
+    "GY": 2,
+    "JO": 2,
+    "KE": 2,
+    "KW": 2,
+    "LY": 2,
+    "MD": 2,
+    "ME": 2,
+    "MG": 2,
+    "MK": 2,
+    "MR": 2,
+    "NA": 2,
+    "OM": 2,
+    "RS": 2,
+    "SI": 2,
+    "SO": 2,
+    "SS": 2,
+    "TL": 2,
+    "TN": 2,
+    "TT": 2,
+    "UG": 2,
+    "UY": 2,
+    "ZM": 2,
+    "ZW": 2,
+    "BY": 1,
+    "CG": 1,
+    "CI": 1,
+    "GH": 1,
+    "IS": 1,
+    "KH": 1,
+    "LB": 1,
+    "LS": 1,
+    "ML": 1,
+    "NE": 1,
+    "PA": 1,
+    "PK": 1,
+    "PS": 1,
+    "PY": 1,
+    "SD": 1,
+    "TD": 1,
+    "TF": 1,
+    "UA": 1
+  }
+}
